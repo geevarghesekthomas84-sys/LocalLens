@@ -1,6 +1,6 @@
 # 🔍 Deep Search (LocalLens) - v1.4.1
 
-![LocalLens Header](assets/locallens-mockup.png)
+![LocalLens Header](assets/locallens-mockup.svg)
 
 A high-performance local file search engine built with Node.js, SQLite FTS5, and Worker Threads. Designed for speed, security, and elite developer UX.
 

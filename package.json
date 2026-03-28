@@ -1,0 +1,20 @@
+{
+  "name": "local-file-search-engine",
+  "version": "1.0.0",
+  "description": "A high-performance local file search engine with SQLite FTS5 and Worker Threads.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "better-sqlite3": "^11.3.0",
+    "express": "^4.21.0",
+    "mammoth": "^1.8.0",
+    "pdf-parse": "^1.1.1",
+    "chokidar": "^3.6.0",
+    "fs-extra": "^11.2.0"
+  },
+  "author": "Antigravity",
+  "license": "MIT"
+}

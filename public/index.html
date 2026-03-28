@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Search | Production v1.3</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Outfit:wght@500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="glass-bg"></div>
+    
+    <header>
+        <h1>DEEP<span>SEARCH</span></h1>
+        <div class="status-indicator" id="status-badge">
+            <span class="dot"></span>
+            <span id="status-text">Production v1.3</span>
+        </div>
+    </header>
+
+    <main>
+        <div class="search-area">
+            <div class="icon">🔍</div>
+            <input type="text" id="search-bar" placeholder="Securely explore local files..." autocomplete="off">
+        </div>
+
+        <div class="filter-pill-bar" id="filter-bar">
+            <div class="pill active" data-category="all">All</div>
+            <div class="pill" data-category="pdf">PDF</div>
+            <div class="pill" data-category="docs">Docs</div>
+            <div class="pill" data-category="code">Code</div>
+        </div>
+
+        <div id="results-meta" class="results-meta"></div>
+        
+        <div id="results-container">
+            <div class="intro">
+                <p>Welcome. Start typing to securely browse your scan paths.</p>
+            </div>
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>

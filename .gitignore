@@ -1,0 +1,7 @@
+node_modules
+search.db
+.DS_Store
+.gemini
+dist
+build
+.env

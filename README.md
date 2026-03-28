@@ -1,5 +1,7 @@
 # 🔍 Deep Search (LocalLens) - v1.4.1
 
+![LocalLens Header](assets/locallens-mockup.png)
+
 A high-performance local file search engine built with Node.js, SQLite FTS5, and Worker Threads. Designed for speed, security, and elite developer UX.
 
 ## ✨ Key Features
@@ -10,11 +12,14 @@ A high-performance local file search engine built with Node.js, SQLite FTS5, and
 - **🚀 Multi-threaded Architecture**: Background indexing via Worker Threads keeps the main UI thread silky smooth.
 - **🌍 Native Platform Support**: Cross-platform open commands for Windows, macOS, and Linux.
 - **🧠 Intelligent Incremental Sync**: Only re-indexes files if metadata signatures (size + mtime) have changed.
-- **🎹 Power User UX**: 
+- [x] **🎹 Power User UX**: 
   - Keyboard focus shortcut (`/`)
   - Filter by category (PDF, Docs, Code)
   - Semantic file-type icons
   - Real-time status pulse
+
+### 📸 Live Demo
+![LocalLens Search Results](assets/locallens-screenshot.png)
 
 ## 🏗️ Architecture Diagram
 

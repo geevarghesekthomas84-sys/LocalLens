@@ -62,3 +62,7 @@ graph TD
 - [x] v1.4.1: Robust Path Sandbox & Documentation Polish
 - [ ] v2.0: Advanced OCR support for Scanned Image/PDFs
 - [ ] v2.1: Local AI embeddings (Semantic Search)
+
+## 📄 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
